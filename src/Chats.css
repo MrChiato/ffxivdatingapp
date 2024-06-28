@@ -1,0 +1,44 @@
+.back-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .chats {
+    padding: 20px;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+  }
+  
+  .chat-latest-message {
+    color: gray;
+  }
+  
